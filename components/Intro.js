@@ -46,7 +46,7 @@ export default function Intro() {
                                 Notebook, Spyder y Google Colaboratory. Me caracterizo por ser curiosa, proactiva y creativa, buscando aprender algo nuevo cada día.
                             </p>
                             <p className="card-text pt-1">
-                                Me puedes escribir al siguiente correo: elizabethmejia1201@gmail.com, o visitar mi perfil de GithHub o Linkedin:
+                                Me puedes escribir al siguiente correo: elizabethmejia1201@gmail.com o visitar mi perfil de GithHub o Linkedin:
                             </p>
                             <div className="d-grid gap-5 d-md-flex py-2 justify-content-center">
                                 <Link href="https://github.com/Lizzy-Mejia">
