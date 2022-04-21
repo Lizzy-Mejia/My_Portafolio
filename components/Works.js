@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { proyectos } from "../pages/profile";
+import { proyectos } from "../data/profile";
 
 const Works = () => (
     <div className="row py-4">

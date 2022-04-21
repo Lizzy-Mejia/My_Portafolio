@@ -1,4 +1,4 @@
-import { skills, abouts } from "../pages/profile";
+import { skills, abouts } from "../data/profile";
 
 const About = () => (
     <div className="row py-4">
