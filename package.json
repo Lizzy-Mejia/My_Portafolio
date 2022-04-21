@@ -4,8 +4,7 @@
   "description": "Example Eslint VScode",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "vercel-build": "npm run prepare && next build"
+    "dev": "next"
   },
   "keywords": [],
   "author": "Elizabeth Chavez",
