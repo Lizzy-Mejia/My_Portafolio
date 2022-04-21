@@ -1,14 +1,14 @@
 {
   "name": "portafolio1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example Eslint VScode",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "vercel-build": "npm run prepare && next build"
   },
   "keywords": [],
-  "author": "",
+  "author": "Elizabeth Chavez",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.1.3",
