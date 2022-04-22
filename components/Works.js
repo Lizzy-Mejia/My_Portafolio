@@ -13,7 +13,7 @@ const Works = () => (
                         {
                             proyectos.map((proyecto) => (
                                 <div className="col-md-4 p-3" key={proyecto.id}>
-                                    <div className="card border-info btn-light mb-3 h-100 shadow-lg bg-body rounded shadow-dark">
+                                    <div className="card border-info mb-3 h-100">
                                         <img src={`${proyecto.imagen}`} className="card-img-top" alt="" width="304" height="200" />
                                         <div className="card-body text-center h-50">
                                             <h5 className="card-title text-info">{proyecto.nombre}</h5>
