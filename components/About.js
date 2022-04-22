@@ -3,7 +3,7 @@ import { skills, abouts } from "../data/profile";
 const About = () => (
     <div className="row py-4">
         <div className="col-sm-7">
-            <div className="card bg-info border-info mb-3">
+            <div className="card border-info mb-3" style={{ background: `#7FCFDF` }}>
                 <div className="card-body text-white py-3">
                     <h1 className="fw-bold text-center py-2">Acerca de mi 👧🏻</h1>
                     <ul>

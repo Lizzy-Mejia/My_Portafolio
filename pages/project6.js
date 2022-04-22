@@ -5,7 +5,7 @@ const Project6 = () => (
     <Layaout>
         <div className="row py-5">
             <div className="col-md-12">
-                <div className="card-body btn-info py-5">
+                <div className="card-body py-5" style={{ background: `#7FCFDF` }}>
                     <Close />
                     <div className="row justify-content-center">
                         <div className="col-md-10">
