@@ -38,9 +38,9 @@ export default function Intro() {
                     </div>
                     <div className="col-md-8 btn-info">
                         <div className="card-body text-white ms-5 py-5 mx-auto" >
-                            <h1><strong>👋 Hola mi nombre es:</strong></h1>
-                            <h1><strong><span ref={textRef}></span></strong></h1>
-                            <h1><strong> <span ref={textRef1}></span></strong></h1>
+                            <h1 className="fw-bold">👋 Hola mi nombre es:</h1>
+                            <h1 className="fw-bold"><span ref={textRef}></span></h1>
+                            <h1 className="fw-bold"><span ref={textRef1}></span></h1>
                             <p className="card-text pt-3">Soy una estudiante apasionada de la inteligencia artificial con conocimiento en machine
                                 learning y lenguaje de programación Python manejando herramientas como Jupyter
                                 Notebook, Spyder y Google Colaboratory. Me caracterizo por ser curiosa, proactiva y creativa, buscando aprender algo nuevo cada día.

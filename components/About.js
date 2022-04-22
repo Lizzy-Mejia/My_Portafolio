@@ -5,7 +5,7 @@ const About = () => (
         <div className="col-sm-7">
             <div className="card bg-info border-info mb-3">
                 <div className="card-body text-white py-3">
-                    <h1 className="text-center py-2">Acerca de mi 👧🏻</h1>
+                    <h1 className="fw-bold text-center py-2">Acerca de mi 👧🏻</h1>
                     <ul>
                         {
                             abouts.map((about) => (
@@ -24,7 +24,7 @@ const About = () => (
         <div className="col-sm-5">
             <div className="card border-info mb-3">
                 <div className="card-body text-info py-4">
-                    <h1 className="text-center">Skills 🛠️</h1>
+                    <h1 className="fw-bold text-center">Skills 🛠️</h1>
                     {
                         skills.map((skill) => (
                             <div className="py-2" key={skill.id}>

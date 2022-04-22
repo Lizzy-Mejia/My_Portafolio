@@ -8,7 +8,7 @@ const Works = () => (
                 <div className="card-body btn-info py-5">
                     <div className="row">
                         <div className="col-md-12">
-                            <h1 className="py-2 text-center text-white"><strong>Portafolio 📊</strong></h1>
+                            <h1 className="fw-bold py-2 text-center text-white">Portafolio 📊</h1>
                         </div>
                         {
                             proyectos.map((proyecto) => (
