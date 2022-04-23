@@ -190,7 +190,7 @@ const Project3 = () => (
                                                     Como se puede observar en la matriz de confusión, el accuracy fue del 97%:
                                                 </h5>
                                                 <h5 className="py-2 text-center">Matriz de confusión</h5>
-                                                <img src="matriz_kNN_3.png" className="img-fluid rounded-start mx-auto d-block py-3"/>
+                                                <img src="matriz_KNN_3.png" className="img-fluid rounded-start mx-auto d-block py-3"/>
                                                 <h5 className="pt-3">En el mapa de calor de la misma se pueden vizualizar:</h5>
                                                 <ul className="p2 py-2">
                                                     <li className="py-2">
