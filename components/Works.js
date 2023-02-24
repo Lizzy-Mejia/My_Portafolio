@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { proyectos } from "../data/profile";
 
 const Works = () => (
-    <div className="row py-4">
+    <div className="row py-1">
         <div className="col-md-12">
             <div className="card border-info mb-3">
                 <div className="card-body py-5" style={{ background: `#7FCFDF` }}>

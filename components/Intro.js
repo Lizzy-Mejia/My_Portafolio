@@ -37,16 +37,18 @@ export default function Intro() {
                         </div>
                     </div>
                     <div className="col-md-8" style={{ background: `#7FCFDF` }}>
-                        <div className="card-body text-white ms-5 py-5 mx-auto" >
-                            <h1 className="fw-bold">👋 Hola mi nombre es:</h1>
-                            <h1 className="fw-bold"><span ref={textRef}></span></h1>
-                            <h1 className="fw-bold"><span ref={textRef1}></span></h1>
-                            <p className="card-text pt-3">Soy una estudiante apasionada de la inteligencia artificial con conocimiento en machine
-                                learning y lenguaje de programación Python manejando herramientas como Jupyter
-                                Notebook, Spyder y Google Colaboratory. Me caracterizo por ser curiosa, proactiva y creativa, buscando aprender algo nuevo cada día.
+                        <div className="card-body text-white ms-5 py-4 mx-auto" >
+                            <h2 className="fw-bold">👋 Hola mi nombre es:</h2>
+                            <h2 className="fw-bold"><span ref={textRef}></span></h2>
+                            <h2 className="fw-bold"><span ref={textRef1}></span></h2>
+                            <h5 className="py-2">Acerca de mi 👧🏻:</h5>
+                            <p className="card-text">Estudie la carrera de Ingenieria en Sistemas, en el año 2022 obtuve mi cierre de pensum y actualmente me preparo para mis examenes finales.
+                            Soy un pequeño ratón🐭de biblioteca 📚que ama todo lo relacionado a la ciencia, la tecnologia, las matemáticas y la física, para mi, adquirir nuevos conocimientos es 
+                            ampliar tus horizontes y alimentar tu mente🧠, sin duda disfruto aprender constantemente sobre los temas que me apasionan y concidero que nunca dejas de aprender, 
+                            siempre hay algo nuevo por descubrir cada día. 
                             </p>
-                            <p className="card-text pt-1">
-                                Me puedes escribir al siguiente correo: elizabethmejia1201@gmail.com o visitar mi perfil de GithHub o Linkedin:
+                            <p className="card-text">Tengo conocimientos y sigo aprendiendo constantemente del mundo del Data Science y Machine Learning. He realizado algunos proyectos aplicando
+                             mis conocimientos, los cuales puedes ver a continuación, me puedes escribir al siguiente correo: elizabethmejia1201@gmail.com o visitar mi perfil de GithHub o Linkedin:
                             </p>
                             <div className="d-grid gap-5 d-md-flex py-2 justify-content-center">
                                 <Link href="https://github.com/Lizzy-Mejia">
@@ -56,7 +58,7 @@ export default function Intro() {
                                         </svg> GitHub
                                     </a>
                                 </Link>
-                                <Link href="https://www.linkedin.com/in/elizabethmejiadatascientitsmachinelearningpython">
+                                <Link href="https://www.linkedin.com/in/elizabethmejiadatascientist">
                                     <a className="btn btn-light text-info py-2 fw-bold" data-bs-dismiss="modal">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" color="#6cc3d5" className="bi bi-linkedin" viewBox="0 0 16 16">
                                             <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
