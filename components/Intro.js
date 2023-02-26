@@ -42,7 +42,7 @@ export default function Intro() {
                             <h2 className="fw-bold"><span ref={textRef}></span></h2>
                             <h2 className="fw-bold"><span ref={textRef1}></span></h2>
                             <h5 className="py-2">Acerca de mi 👧🏻:</h5>
-                            <p className="card-text">Estudie la carrera de Ingenieria en Sistemas, en el año 2022 obtuve mi cierre de pensum y actualmente me preparo para mis examenes finales.
+                            <p className="card-text">Estudie la carrera de Ingenieria en Sistemas, en el año 2022 obtuve mi cierre de pensum y actualmente me preparo para mis exámenes finales.
                             Soy un pequeño ratón🐭de biblioteca 📚que ama todo lo relacionado a la ciencia, la tecnologia, las matemáticas y la física, para mi, adquirir nuevos conocimientos es 
                             ampliar tus horizontes y alimentar tu mente🧠, sin duda disfruto aprender constantemente sobre los temas que me apasionan y concidero que nunca dejas de aprender, 
                             siempre hay algo nuevo por descubrir cada día. 
