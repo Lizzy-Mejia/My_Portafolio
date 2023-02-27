@@ -16,11 +16,11 @@ const Project4 = () => (
                                             <strong>Predicción de accidentes cerebrovasculares</strong>
                                         </h1>
                                         <h5>
-                                            En los últimos años ACV se han posicionado entre las principales causas de muerte a nivel mundial, en el año 2000 representó
+                                            En los últimos años los ACV se han posicionado entre las principales causas de muerte a nivel mundial, en el año 2000 representó
                                             un 31% de las muertes, en el año 2010 esa cifra subió al 38%, en el año 2019 estuvo en la segunda posición de las principales
-                                            causas de muerte, siendo responsables de aproximadamente 6% del total de muertes mundiales, según estudios de la Organización
-                                            Mundial de la Salud y es una tendencia que esta al alza. Este tipo de enfermedad se encuentra entre las 10 principales causas de
-                                            muerte que representaron el 55% de los 55,4 millones de muertes en todo el mundo en el año 2019, según la OMS.
+                                            causas de muerte, siendo responsables de aproximadamente 6% del total de muertes mundiales, este tipo de enfermedad se encuentra entre
+                                            las 10 principales causas de muerte que representaron el 55% de los 55,4 millones de muertes en todo el mundo en el año 2019, según 
+                                            estudios de la Organizació Mundial de la Salud y es una tendencia que esta al alza.
                                         </h5>
                                     </div>
                                 </div>
@@ -29,10 +29,10 @@ const Project4 = () => (
                             <div className="col-md-10">
                                 <div className="card bg-light border-info mb-3">
                                     <div className="card-body text-info">
-                                        <h5>Según datos clínicos sobre pacientes que sufrieron un accidente cerebrovascular, se desarrolló un modelo de clasificación para predecir 
-                                            si es probable que un paciente sufra o no un ACV, en función de los parámetros de entrada.
+                                        <h5>En base a datos clínicos sobre pacientes que sufrieron un accidente cerebrovascular, se desarrolló un modelo de clasificación para predecir 
+                                            si es probable que un paciente sufra o no un ACV, en función de ciertos parámetros de entrada.
                                         </h5>
-                                        <h5>El conjunto de datos contenía 5510 registros y 12 columnas, de las cuales nuestra variable objetivo es la columna: “stroke”, las 11 columnas 
+                                        <h5>El conjunto de datos contenía 5110 registros y 12 columnas, de las cuales nuestra variable objetivo es la columna: “stroke”, las 11 columnas 
                                             restantes son las características que en teoría influyen sobre la variable de salida. El dataset utilizado para este proyecto fue obtenido en:
                                             https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset, utilizado únicamente con fines de investigación y aprendizaje,
                                             todos los derechos a su respectivo autor.
@@ -52,18 +52,50 @@ const Project4 = () => (
                                                 <h5>Análisis y evaluación de los datos.</h5>
                                             </li>
                                             <li>
-                                                <h5>Limpieza y preparación del dataset.</h5>
+                                                <h5>Limpieza y preparación de los datos.</h5>
                                             </li>
                                             <li>
                                                 <h5>Representación gráfica de algunos datos.</h5>
                                             </li>
                                             <li>
-                                                <h5>Creación y entrenamiento de diferentes modelos.</h5>
+                                                <h5>Balanceo del dataset.</h5>
                                             </li>
                                             <li>
-                                                <h5>Evaluación de los resultados obtenidos por cada modelo con el conjunto de datos de prueba.</h5>
+                                                <h5>Pruebas con diferentes modelos de clasificación.</h5>
+                                            </li>
+                                            <li>
+                                                <h5>Selección de los mejores modelos.</h5>
+                                            </li>
+                                            <li>
+                                                <h5>Hiperparametrización de los mejores modelos.</h5>
+                                            </li>
+                                            <li>
+                                                <h5>Prueba y evaluación del mejor modelo.</h5>
+                                            </li>
+                                            <li>
+                                                <h5>Reducción de características.</h5>
+                                            </li>
+                                            <li>
+                                                <h5>Prueba y evaluación del modelo final.</h5>
                                             </li>
                                         </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-md-10">
+                                <div className="card bg-light border-info mb-3">
+                                    <div className="card-body text-info">
+                                        <h3 className="card-title">
+                                            <strong>Metodología:</strong>
+                                        </h3>
+                                        <h5 className="py-2">
+                                        Los valores faltantes en la variable numérica fueron sustituidos por la mediana de dicha columna y en la variable categórica se procedió con
+                                        la sustitución de dichos valores por el valor más frecuente. Para la búsqueda visual de valores atípicos se utilizó gráficas de caja, así como 
+                                        el método del rango de intercuartiles, para poder localizar específicamente dichos valores. Para solventar el desequilibrio en los datos se empleó
+                                        el método de sobremuestreo utilizando SMOTEN y se aplico el proceso de escalado de datos utilizando StandardScaler. El último proceso realizado 
+                                        antes de la fase de modelado fue la transformación de las variables categóricas a variables dummies.
+                                        </h5>
                                     </div>
                                 </div>
                             </div>
