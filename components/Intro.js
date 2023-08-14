@@ -48,7 +48,7 @@ export default function Intro() {
                             siempre hay algo nuevo por descubrir cada día. 
                             </p>
                             <p className="card-text">Tengo conocimientos y sigo aprendiendo constantemente del mundo del Data Science y Machine Learning. He realizado algunos proyectos aplicando
-                             mis conocimientos, los cuales puedes ver a continuación, me puedes escribir al siguiente correo: elizabethchavez1201@outlook.com o visitar mi perfil de GithHub o Linkedin:
+                             mis conocimientos, los cuales puedes ver a continuación, me puedes escribir al siguiente correo: elizabethrmchavez@gmail.com o visitar mi perfil de GithHub o Linkedin:
                             </p>
                             <div className="d-grid gap-5 d-md-flex py-2 justify-content-center">
                                 <Link href="https://github.com/Lizzy-Mejia">
